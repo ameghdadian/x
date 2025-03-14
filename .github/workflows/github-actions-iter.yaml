@@ -2,11 +2,15 @@ name: Test
 
 on:
   push:
+    paths:
+      - "iter/**/*.go"
   pull_request:
+    paths:
+      - "iter/**/*.go"
 
 jobs:
   run-tests:
-    name: Run Tests
+    name: Run iter Tests
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
@@ -18,4 +22,4 @@ jobs:
           go-version: "1.23.2"
 
       - name: Run tests
-        run: make test
+        run: make -C iter test

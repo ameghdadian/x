@@ -6,11 +6,11 @@
     <a href="https://pkg.go.dev/github.com/ameghdadian/x/iter">
         <img src="https://pkg.go.dev/badge/github.com/ameghdadian/x/iter.svg" height="20" alt="Go Reference">
     </a>
-    <a href="https://github.com/ameghdadian/iter/actions/workflows/github-actions.yaml/badge.svg">
-        <img src="https://github.com/ameghdadian/iter/actions/workflows/github-actions.yaml/badge.svg" height="20" alt="CI">
+    <a href="https://github.com/ameghdadian/x/actions/workflows/github-actions-iter.yaml/badge.svg">
+        <img src="https://github.com/ameghdadian/x/actions/workflows/github-actions-iter.yaml/badge.svg" height="20" alt="CI">
     </a>
     <a href="#">
-     <img src="https://img.shields.io/coverallsCoverage/github/ameghdadian/iter" height="20" alt="Code Test Coverage">
+     <img src="https://img.shields.io/coverallsCoverage/github/ameghdadian/x" height="20" alt="Code Test Coverage">
     </a>
 
   <h3><em>iter provides tools to simplify working with Iterators(officially introduced in Go 1.23 release).</em></h3>
